@@ -1,6 +1,6 @@
 <templateSet group="Java">
   <template name="commentClass" value="/**&#10; * &lt;pre&gt;&#10; * &lt;/pre&gt;&#10; * @date : $DATE$&#10; * @author : 김명진&#10; * @version : 1.0.0&#10; * @see : &#10;**/" description="클래스 주석" toReformat="false" toShortenFQNames="true">
-    <variable name="DATE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
