@@ -1,0 +1,9 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CopyPaths" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="StringManipulation.ToSnakeCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+</keymap>
