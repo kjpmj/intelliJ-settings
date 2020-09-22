@@ -5,4 +5,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="prs" value="private String" description="prviate String" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tdd" value="public void () throws Exception {&#10;    // given&#10;    &#10;    // when&#10;    &#10;    // then&#10;}" description="@test given when then" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
