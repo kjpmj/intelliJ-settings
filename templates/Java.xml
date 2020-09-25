@@ -5,7 +5,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="prs" value="private String" description="prviate String" toReformat="false" toShortenFQNames="true">
+  <template name="prs" value="private String " description="prviate String" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
