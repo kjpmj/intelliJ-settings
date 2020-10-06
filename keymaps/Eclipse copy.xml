@@ -3,10 +3,14 @@
   <action id="DatabaseView.CopyDdlAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="EditorMatchBrace" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift alt l" />
     <keyboard-shortcut first-keystroke="ctrl alt v" />
     <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="shift ctrl c" />
